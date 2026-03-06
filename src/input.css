@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+
+.arsenal-regular {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arsenal-bold {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arsenal-regular-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arsenal-bold-italic {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.bg-wallpaper { 
+  background-image: url("/public/assets/images/principal.svg");
+  background-size: cover;        
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;             
+}
+
+.bg-wallpaper-2{
+    background-image: url("/public/assets/images/BlobsPonta.svg");
+    background-size: cover; 
+    background-position: center;       
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  }
+
+.bg-wallpaper-3{
+    background-image: url("/public/assets/images/LadoOnda.svg");
+    background-size: cover;        
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  }
+
+}
+
