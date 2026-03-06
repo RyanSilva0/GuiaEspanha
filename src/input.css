@@ -28,7 +28,7 @@
 }
 
 .bg-wallpaper { 
-  background-image: url("/public/assets/images/principal.svg");
+  background-image: url("/assets/images/principal.svg");
   background-size: cover;        
   background-repeat: no-repeat;
   width: 100%;
@@ -36,7 +36,7 @@
 }
 
 .bg-wallpaper-2{
-    background-image: url("/public/assets/images/BlobsPonta.svg");
+    background-image: url("/assets/images/BlobsPonta.svg");
     background-size: cover; 
     background-position: center;       
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
   }
 
 .bg-wallpaper-3{
-    background-image: url("/public/assets/images/LadoOnda.svg");
+    background-image: url("/assets/images/LadoOnda.svg");
     background-size: cover;        
   background-repeat: no-repeat;
   width: 100%;

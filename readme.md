@@ -36,8 +36,7 @@ Centralizar informações sobre:
 ```
 ESPANHA/
 │
-├── public/
-│   └── assets/
+├── assets/
 │       ├── images/
 │       └── icons/
 │
@@ -45,12 +44,11 @@ ESPANHA/
 │   ├── input.css
 │   └── output.css
 │
-├── pages/
-│   ├── index.html
-│   ├── cities.html
-│   ├── visa.html
-│   ├── cost-of-living.html
-│   └── comparison.html
+├── index.html
+├── cities.html
+├── visa.html
+├── cost-of-living.html
+├── comparison.html
 │
 ├── tailwind.config.js
 ├── package.json
@@ -71,7 +69,7 @@ cd spain-immigration-guide
 ### 2️⃣ Instalar dependências
 
 ```bash
-npm install
+npm install -y
 ```
 
 ### 3️⃣ Rodar Tailwind em modo watch
